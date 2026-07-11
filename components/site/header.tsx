@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X, MessageCircle } from "lucide-react";
 import { ButtonLink } from "@/components/site/button-link";
-import { CompassMark } from "@/components/site/compass-mark";
+import { Logo } from "@/components/site/logo";
 import { LanguageToggle } from "@/components/site/language-toggle";
 import { buildWhatsAppLink } from "@/lib/whatsapp";
 import { navLinks, siteConfig } from "@/lib/data/site";
@@ -22,7 +22,7 @@ export function Header() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between md:h-20">
           <Link href="/" className="flex items-center gap-2.5">
-            <CompassMark className="text-accent" />
+            <Logo className="text-accent" />
             <div className="flex flex-col">
               <span className="font-heading text-xl font-bold leading-tight text-primary md:text-2xl">
                 Newmeric Compass

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Mail, Phone, MapPin, Award, Shield } from "lucide-react";
-import { CompassMark } from "@/components/site/compass-mark";
+import { Logo } from "@/components/site/logo";
 import { FacebookIcon } from "@/components/site/icons";
 import { Bilingual } from "@/components/site/bilingual-text";
 import { missionStatement, missionTagline } from "@/lib/data/mission";
@@ -13,7 +13,7 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div>
             <div className="flex items-center gap-2">
-              <CompassMark className="text-accent" />
+              <Logo className="text-accent" />
               <span className="font-heading text-2xl font-bold">{siteConfig.name}</span>
             </div>
             <Bilingual value={missionTagline} as="p" className="mt-3 text-sm italic text-accent" />

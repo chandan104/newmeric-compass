@@ -3,9 +3,9 @@ export const siteConfig = {
   founder: "Pannkaj Kabiraj",
   founderTitles: ["Certified Numerologist", "Vastu Aacharya"],
   /** Set once a hosted URL for the founder photo is available. */
-  founderImage: undefined as string | undefined,
+  founderImage: "https://res.cloudinary.com/hfxiadax/image/upload/v1783778035/SAVE_20260711_103517_j3mljb.jpg",
   /** Set once a hosted URL for the site logo is available. */
-  logoImage: undefined as string | undefined,
+  logoImage: "https://res.cloudinary.com/hfxiadax/image/upload/v1783778097/SAVE_20260711_103536_bfp5my.jpg",
   tagline: "Numbers Reveal. I Guide. You Achieve.",
   heroTagline: "Vastu solutions for Growth, Peace, and Prosperity",
   phone: "+91-9531199355",

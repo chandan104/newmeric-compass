@@ -15,6 +15,7 @@ export const services: Service[] = [
     name: "Vedic Kundali",
     pillar: "numerology",
     price: 2100,
+    image: "https://res.cloudinary.com/hfxiadax/image/upload/v1783778091/SAVE_20260711_112448_ogfsat.jpg",
     tagline: "विजयी भवतु सर्वत्र सर्वदा — May You Be Victorious Everywhere, Always",
     shortDescription:
       "A personalized Vedic numerology report identifying your Mulank & Bhagyank, life factors, and Mahadasha/Antardasha analysis.",
@@ -36,6 +37,7 @@ export const services: Service[] = [
     name: "Baby Name Suggest",
     pillar: "numerology",
     price: 501,
+    image: "https://res.cloudinary.com/hfxiadax/image/upload/v1783778095/SAVE_20260711_112714_dnzhpu.jpg",
     tagline: "A Perfect Name, A Perfect Future",
     shortDescription:
       "Newborn naming based on Vedic Numerology — a name chosen to bring success, health and happiness to your child's life.",
@@ -57,6 +59,7 @@ export const services: Service[] = [
     name: "Name Correction",
     pillar: "numerology",
     price: 501,
+    image: "https://res.cloudinary.com/hfxiadax/image/upload/v1783778095/SAVE_20260711_112714_dnzhpu.jpg",
     tagline: "Realign Your Name, Realign Your Path",
     shortDescription:
       "Numerological correction of an existing name — for children or adults — to bring it into alignment with success, health, and happiness.",
@@ -77,6 +80,7 @@ export const services: Service[] = [
     name: "Vastu Consultation — 16 Zones Analysis Report",
     pillar: "vastu",
     price: 501,
+    image: "https://res.cloudinary.com/hfxiadax/image/upload/v1783778091/SAVE_20260711_112448_ogfsat.jpg",
     tagline: "विजयी भवतु सर्वत्र सर्वदा — May You Be Victorious Everywhere, Always",
     shortDescription:
       "A complete 16-zone Vastu analysis of your home, office, or commercial space — energy flow, directional strength, and practical remedies.",
@@ -100,6 +104,7 @@ export const services: Service[] = [
     name: "Compatibility Numerology",
     pillar: "numerology",
     price: 501,
+    image: "https://res.cloudinary.com/hfxiadax/image/upload/v1783778096/SAVE_20260711_113411_efxgzl.jpg",
     tagline: "Discover the Harmony. Strengthen the Connection. Build a Better Tomorrow.",
     shortDescription:
       "Numerical compatibility analysis for friendships, marriage, or business partnerships — numbers don't lie, they reveal the truth.",
@@ -120,6 +125,7 @@ export const services: Service[] = [
     name: "Career Numerology",
     pillar: "numerology",
     price: 501,
+    image: "https://res.cloudinary.com/hfxiadax/image/upload/v1783778071/SAVE_20260711_122329_arvdz6.jpg",
     tagline: "Right Numbers. Right Direction. Right Future.",
     shortDescription:
       "Discover your ideal career path through your Date of Birth and Name Numbers — guidance for students, professionals, and anyone facing a career crossroads.",
@@ -140,37 +146,12 @@ export const services: Service[] = [
     name: "Mobile Numerology",
     pillar: "numerology",
     price: 501,
+    image: "https://res.cloudinary.com/hfxiadax/image/upload/v1783778095/SAVE_20260711_112714_dnzhpu.jpg",
     shortDescription:
       "Phone number analysis affecting health, relationships, career & money growth.",
     description: [
       "Discover how your mobile number influences various aspects of your life, and learn how to optimize it for maximum positive energy.",
       "Each digit carries its own vibration — the combination in your mobile number can either support or hinder your goals. This consultation reads that combination and recommends adjustments where needed.",
-    ],
-    active: true,
-  },
-  {
-    slug: "business-numerology",
-    name: "Business Numerology",
-    pillar: "numerology",
-    price: 1005,
-    shortDescription:
-      "Logo design and branding numerology for businesses to attract prosperity and success.",
-    description: [
-      "Your business name, logo, and branding carry a numerological signature just like a person's name does. This consultation aligns that signature with prosperity and growth.",
-      "Ideal for founders naming a new venture, or established businesses looking to correct a name or logo that isn't performing.",
-    ],
-    active: true,
-  },
-  {
-    slug: "baby-delivery-muhurat",
-    name: "Baby Delivery / C-Section Muhurat",
-    pillar: "numerology",
-    price: 501,
-    shortDescription:
-      "Auspicious dates for cesarean delivery, chosen according to Numerology and Vedic principles.",
-    description: [
-      "The timing of birth significantly shapes a child's numerological chart and life path. This consultation identifies the most favorable muhurat (date and time) for a planned C-section delivery.",
-      "Choose a birth window that sets your child up with the most beneficial cosmic and numerological influences from day one.",
     ],
     active: true,
   },
