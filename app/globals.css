@@ -1,26 +1,158 @@
 @import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@custom-variant dark (&:is(.dark *));
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --font-sans: var(--font-inter);
   --font-mono: var(--font-geist-mono);
+  --font-heading: var(--font-playfair);
+  --font-devanagari: var(--font-hind);
+  --color-whatsapp: var(--whatsapp);
+  --color-whatsapp-foreground: var(--whatsapp-foreground);
+  --color-vastu: var(--vastu);
+  --color-vastu-foreground: var(--vastu-foreground);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+:root {
+  /* Newmeric Compass brand palette — navy + gold (from logo), warm cream
+     (from banner backgrounds), forest green reserved for Vastu-pillar
+     content so Numerology and Vastu read as two distinct-but-equal tracks. */
+  --background: #faf6ec;
+  --foreground: #191a23;
+  --card: #ffffff;
+  --card-foreground: #191a23;
+  --popover: #ffffff;
+  --popover-foreground: #191a23;
+  --primary: #10193a;
+  --primary-foreground: #faf6ec;
+  --secondary: #1b4332;
+  --secondary-foreground: #faf6ec;
+  --muted: #f1ecdd;
+  --muted-foreground: #6b6455;
+  --accent: #c9a44c;
+  --accent-foreground: #10193a;
+  --destructive: #b3413a;
+  --border: #e4dcc8;
+  --input: #e4dcc8;
+  --ring: #c9a44c;
+  --whatsapp: #25d366;
+  --whatsapp-foreground: #ffffff;
+  --vastu: #1b4332;
+  --vastu-foreground: #faf6ec;
+  --chart-1: #c9a44c;
+  --chart-2: #10193a;
+  --chart-3: #1b4332;
+  --chart-4: #6b6455;
+  --chart-5: #b3413a;
+  --radius: 0.75rem;
+  --sidebar: #10193a;
+  --sidebar-foreground: #faf6ec;
+  --sidebar-primary: #c9a44c;
+  --sidebar-primary-foreground: #10193a;
+  --sidebar-accent: #1b4332;
+  --sidebar-accent-foreground: #faf6ec;
+  --sidebar-border: #263258;
+  --sidebar-ring: #c9a44c;
+}
+
+.dark {
+  --background: #0b1226;
+  --foreground: #f3efe1;
+  --card: #10193a;
+  --card-foreground: #f3efe1;
+  --popover: #10193a;
+  --popover-foreground: #f3efe1;
+  --primary: #c9a44c;
+  --primary-foreground: #10193a;
+  --secondary: #1b4332;
+  --secondary-foreground: #f3efe1;
+  --muted: #182142;
+  --muted-foreground: #a6a390;
+  --accent: #c9a44c;
+  --accent-foreground: #10193a;
+  --destructive: #d9695f;
+  --border: #263258;
+  --input: #263258;
+  --ring: #c9a44c;
+  --whatsapp: #25d366;
+  --whatsapp-foreground: #ffffff;
+  --vastu: #2e6650;
+  --vastu-foreground: #f3efe1;
+  --chart-1: #c9a44c;
+  --chart-2: #f3efe1;
+  --chart-3: #2e6650;
+  --chart-4: #a6a390;
+  --chart-5: #d9695f;
+  --sidebar: #0b1226;
+  --sidebar-foreground: #f3efe1;
+  --sidebar-primary: #c9a44c;
+  --sidebar-primary-foreground: #10193a;
+  --sidebar-accent: #1b4332;
+  --sidebar-accent-foreground: #f3efe1;
+  --sidebar-border: #263258;
+  --sidebar-ring: #c9a44c;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    @apply font-sans scroll-smooth;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-heading;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer utilities {
+  .font-hindi {
+    font-family: var(--font-devanagari), var(--font-sans);
+  }
 }
