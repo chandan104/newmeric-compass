@@ -128,7 +128,7 @@ export default async function ServiceDetailPage({
               className="mt-8 w-full bg-whatsapp text-whatsapp-foreground text-lg px-8 py-6 transition-all duration-200 hover:bg-whatsapp/90 active:scale-[0.98] gap-2 sm:w-auto"
             >
               <MessageCircle className="h-5 w-5" />
-              Buy via WhatsApp
+              Get This Service
             </ButtonLink>
           </div>
         </div>

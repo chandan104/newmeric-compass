@@ -3,7 +3,9 @@ import { StatsBar } from "@/components/sections/stats-bar";
 import { Pillars } from "@/components/sections/pillars";
 import { Philosophy } from "@/components/sections/philosophy";
 import { FeaturedServices } from "@/components/sections/featured-services";
+import { Seva } from "@/components/sections/seva";
 import { FeaturedProducts } from "@/components/sections/featured-products";
+import { Videos } from "@/components/sections/videos";
 import { TestimonialsPreview } from "@/components/sections/testimonials-preview";
 import { FaqPreview } from "@/components/sections/faq-preview";
 import { CtaBanner } from "@/components/sections/cta-banner";
@@ -16,7 +18,9 @@ export default function Home() {
       <Pillars />
       <Philosophy />
       <FeaturedServices />
+      <Seva />
       <FeaturedProducts />
+      <Videos />
       <TestimonialsPreview />
       <FaqPreview />
       <CtaBanner />

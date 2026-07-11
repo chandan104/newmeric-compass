@@ -63,7 +63,7 @@ export function ServiceCard({ service }: { service: Service }) {
           className="mt-4 inline-flex items-center justify-center gap-2 rounded-lg bg-whatsapp px-4 py-2.5 text-sm font-semibold text-whatsapp-foreground transition-all duration-200 hover:bg-whatsapp/90 active:scale-[0.98]"
         >
           <MessageCircle className="h-4 w-4" />
-          Buy via WhatsApp
+          Get This Service
         </a>
       </div>
     </div>
