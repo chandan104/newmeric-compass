@@ -8,13 +8,16 @@ import type { Product } from "@/lib/types";
 export function ProductCard({ product }: { product: Product }) {
   return (
     <div className="group flex flex-col overflow-hidden rounded-2xl border border-border bg-card shadow-sm transition-all duration-200 hover:-translate-y-1 hover:shadow-lg">
-      <Link href={`/products/${product.slug}`} className="relative aspect-[4/3] overflow-hidden">
+      <Link
+        href={`/products/${product.slug}`}
+        className="relative aspect-[4/3] overflow-hidden bg-muted"
+      >
         {product.image ? (
           <Image
             src={product.image}
             alt={product.name}
             fill
-            className="object-cover transition-transform duration-300 group-hover:scale-105"
+            className="object-contain transition-transform duration-300 group-hover:scale-105"
           />
         ) : (
           <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-secondary to-primary">

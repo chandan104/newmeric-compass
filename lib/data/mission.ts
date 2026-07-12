@@ -54,6 +54,13 @@ export const corePrinciples: Principle[] = [
       en: "Making life prosperous and balanced through minimal, natural changes — without any wasteful expense.",
     },
   },
+  {
+    title: { hi: "प्रकृति की ऊर्जा ही वास्तविक शक्ति है", en: "Nature's Energy Is the Real Power" },
+    body: {
+      hi: "भगवान ने प्रकृति के भीतर ऐसी दिव्य ऊर्जा स्थापित की है, जो हर दिशा, हर संख्या और हर स्पंदन में कार्य करती है। जब हम अपने Vedic Vastu, Numerology और जीवन को प्रकृति के नियमों के अनुरूप संतुलित करते हैं, तो हमारी ऊर्जा, अवसर और प्रगति एक ही दिशा में प्रवाहित होने लगते हैं। याद रखिए—प्रकृति के नियमों के विरुद्ध संघर्ष करना पड़ता है, लेकिन प्रकृति के साथ चलने पर सफलता सहज बन जाती है।",
+      en: "God has instilled a divine energy within nature itself — one that works through every direction, every number, and every vibration. When we align our Vedic Vastu, Numerology, and our lives with nature's laws, our energy, opportunities, and progress all begin to flow in the same direction. Remember — fighting against nature's laws is a struggle, but walking alongside nature makes success effortless.",
+    },
+  },
 ];
 
 export const missionConclusion: BilingualText = {

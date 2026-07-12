@@ -155,6 +155,32 @@ export const services: Service[] = [
     ],
     active: true,
   },
+  {
+    // TODO: confirm price — placeholder set to match the old "Business Numerology" service.
+    slug: "business-logo-numerology",
+    name: "Business Logo Numerology",
+    pillar: "numerology",
+    price: 1005,
+    image: "https://res.cloudinary.com/hfxiadax/image/upload/v1783867849/SAVE_20260712_201906_bnwkd4.jpg",
+    tagline: "Right Name. Right Number. Right Logo. Right Direction.",
+    shortDescription:
+      "Business Name, Logo, and Brand Vibration Numerology — align your brand's identity with energy that customers feel before they even read a word.",
+    description: [
+      "Newmeric Compass mein hum sirf logo design nahi karte, balki Business Name Numerology, Logo Numerology, Brand Vibration Analysis, Lucky Colour & Symbol Selection, aur Business Growth Alignment par bhi kaam karte hain, taaki aapka brand ek strong energetic identity ke saath market mein establish ho.",
+      "Yaad rakhiye: \"Logo pehle aankhon ko dikhta hai, lekin uski vibration seedhe customer ke subconscious mind ko touch karti hai.\"",
+      "Isliye agar aap apne business ko sirf chalana nahi, balki brand banana chahte hain, to ek Numerology-Aligned Business Logo aapke liye ek strategic investment ho sakta hai.",
+      "\"Right Name. Right Number. Right Logo. Right Direction. Yahi hai Business Success ka Compass – Newmeric Compass.\"",
+    ],
+    highlights: [
+      "Business Name Numerology",
+      "Logo Numerology",
+      "Brand Vibration Analysis",
+      "Lucky Colour & Symbol Selection",
+      "Business Growth Alignment",
+    ],
+    featured: true,
+    active: true,
+  },
 ];
 
 export function getServiceBySlug(slug: string): Service | undefined {

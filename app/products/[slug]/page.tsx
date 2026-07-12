@@ -58,9 +58,9 @@ export default async function ProductDetailPage({
 
       <section className="py-12 md:py-16">
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
-          <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
+          <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-muted">
             {product.image ? (
-              <Image src={product.image} alt={product.name} fill className="object-cover" />
+              <Image src={product.image} alt={product.name} fill className="object-contain" />
             ) : (
               <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-secondary to-primary">
                 <CompassMark className="h-24 w-24 text-accent opacity-80" />

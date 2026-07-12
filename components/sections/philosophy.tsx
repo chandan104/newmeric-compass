@@ -1,4 +1,5 @@
-import { Leaf, ScrollText, ShieldOff, BrainCircuit, Wallet } from "lucide-react";
+import Image from "next/image";
+import { Leaf, ScrollText, ShieldOff, BrainCircuit, Wallet, Sparkles } from "lucide-react";
 import { Bilingual } from "@/components/site/bilingual-text";
 import { LanguageToggle } from "@/components/site/language-toggle";
 import {
@@ -8,7 +9,10 @@ import {
   missionTagline,
 } from "@/lib/data/mission";
 
-const icons = [Leaf, ScrollText, ShieldOff, BrainCircuit, Wallet];
+const icons = [Leaf, ScrollText, ShieldOff, BrainCircuit, Wallet, Sparkles];
+
+const NATURE_ENERGY_IMAGE =
+  "https://res.cloudinary.com/hfxiadax/image/upload/v1783867304/IMG-20260712-WA0006_xtpage.jpg";
 
 export function Philosophy() {
   return (
@@ -23,7 +27,16 @@ export function Philosophy() {
             as="h2"
             className="text-3xl font-bold text-primary md:text-4xl"
           />
-          <div className="mt-5 flex justify-center">
+          <div className="mx-auto mt-8 max-w-xs overflow-hidden rounded-2xl shadow-lg sm:max-w-sm">
+            <Image
+              src={NATURE_ENERGY_IMAGE}
+              alt="Nature's Energy Is the Real Power"
+              width={784}
+              height={1063}
+              className="h-auto w-full"
+            />
+          </div>
+          <div className="mt-8 flex justify-center">
             <LanguageToggle className="border-border text-muted-foreground" />
           </div>
           <Bilingual
