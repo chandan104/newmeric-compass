@@ -80,7 +80,7 @@ export const services: Service[] = [
     name: "Vastu Consultation — 16 Zones Analysis Report",
     pillar: "vastu",
     price: 501,
-    image: "https://res.cloudinary.com/hfxiadax/image/upload/v1783778091/SAVE_20260711_112448_ogfsat.jpg",
+    image: "https://res.cloudinary.com/hfxiadax/image/upload/v1783778081/SAVE_20260711_112842_ihv9qg.jpg",
     tagline: "विजयी भवतु सर्वत्र सर्वदा — May You Be Victorious Everywhere, Always",
     shortDescription:
       "A complete 16-zone Vastu analysis of your home, office, or commercial space — energy flow, directional strength, and practical remedies.",

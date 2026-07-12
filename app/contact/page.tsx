@@ -108,7 +108,7 @@ export default function ContactPage() {
               </p>
               <div className="h-96 w-full overflow-hidden rounded-2xl bg-muted shadow-lg">
                 <iframe
-                  src="https://www.openstreetmap.org/export/embed.html?bbox=93.7%2C26.0%2C93.9%2C26.2&layer=mapnik&marker=26.1%2C93.8"
+                  src={siteConfig.googleMapsEmbedUrl}
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
@@ -117,6 +117,14 @@ export default function ContactPage() {
                   title="Newmeric Compass Location — Bokajan, Karbi-Anglong, Assam"
                 />
               </div>
+              <ButtonLink
+                href={siteConfig.social.googleBusiness}
+                external
+                variant="outline"
+                className="mt-4 self-start"
+              >
+                View on Google
+              </ButtonLink>
             </div>
           </div>
         </div>

@@ -5,7 +5,7 @@ import { buildWhatsAppLink } from "@/lib/whatsapp";
 import { siteConfig } from "@/lib/data/site";
 
 const HERO_BANNER =
-  "https://res.cloudinary.com/hfxiadax/image/upload/v1783782038/SAVE_20260711_103451_rszeja.jpg";
+  "https://res.cloudinary.com/hfxiadax/image/upload/v1783841465/SAVE_20260712_125931_t3kisz.jpg";
 
 export function Hero() {
   return (

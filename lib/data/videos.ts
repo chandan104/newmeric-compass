@@ -16,4 +16,12 @@ export interface SevaVideo {
  *   title: "Optional short label for accessibility",
  * }
  */
-export const facebookVideos: SevaVideo[] = [];
+export const facebookVideos: SevaVideo[] = [
+  { url: "https://www.facebook.com/share/r/1CutYp7TcY/", title: "Pannkaj Kabiraj — Video 1" },
+  { url: "https://www.facebook.com/share/v/1M3nv29Jwx/", title: "Pannkaj Kabiraj — Video 2" },
+  { url: "https://www.facebook.com/share/v/1JK9Mjr8RD/", title: "Pannkaj Kabiraj — Video 3" },
+  { url: "https://www.facebook.com/share/r/1Dnwj7iuAi/", title: "Pannkaj Kabiraj — Video 4" },
+  { url: "https://www.facebook.com/share/r/1AjTE4ytas/", title: "Pannkaj Kabiraj — Video 5" },
+  { url: "https://www.facebook.com/share/v/193yt29Z73/", title: "Pannkaj Kabiraj — Video 6" },
+  { url: "https://www.facebook.com/share/r/1EDEkZye95/", title: "Pannkaj Kabiraj — Video 7" },
+];
