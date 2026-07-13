@@ -65,9 +65,9 @@ export default async function ServiceDetailPage({
 
       <section className="py-12 md:py-16">
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
-          <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
+          <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-muted">
             {service.image ? (
-              <Image src={service.image} alt={service.name} fill className="object-cover" />
+              <Image src={service.image} alt={service.name} fill className="object-contain" />
             ) : (
               <div
                 className={cn(

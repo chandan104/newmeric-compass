@@ -59,7 +59,7 @@ export const services: Service[] = [
     name: "Name Correction",
     pillar: "numerology",
     price: 501,
-    image: "https://res.cloudinary.com/hfxiadax/image/upload/v1783778095/SAVE_20260711_112714_dnzhpu.jpg",
+    image: "https://res.cloudinary.com/hfxiadax/image/upload/v1783922542/file_00000000e570720bb21850a1aa253739_sfknaz.png",
     tagline: "Realign Your Name, Realign Your Path",
     shortDescription:
       "Numerological correction of an existing name — for children or adults — to bring it into alignment with success, health, and happiness.",
@@ -146,7 +146,7 @@ export const services: Service[] = [
     name: "Mobile Numerology",
     pillar: "numerology",
     price: 501,
-    image: "https://res.cloudinary.com/hfxiadax/image/upload/v1783778095/SAVE_20260711_112714_dnzhpu.jpg",
+    image: "https://res.cloudinary.com/hfxiadax/image/upload/v1783923326/SAVE_20260713_114423_hpjbih.jpg",
     shortDescription:
       "Phone number analysis affecting health, relationships, career & money growth.",
     description: [

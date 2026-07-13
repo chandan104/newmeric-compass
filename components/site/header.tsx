@@ -28,7 +28,7 @@ export function Header() {
                 Newmeric Compass
               </span>
               <span className="hidden text-xs text-muted-foreground sm:block">
-                Numerology &amp; Vastu Shastri
+                The "GPS" of Your Destiny
               </span>
             </div>
           </Link>

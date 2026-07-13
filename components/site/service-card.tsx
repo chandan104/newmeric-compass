@@ -11,13 +11,16 @@ export function ServiceCard({ service }: { service: Service }) {
 
   return (
     <div className="group flex flex-col overflow-hidden rounded-2xl border border-border bg-card shadow-sm transition-all duration-200 hover:-translate-y-1 hover:shadow-lg">
-      <Link href={`/services/${service.slug}`} className="relative aspect-[4/3] overflow-hidden">
+      <Link
+        href={`/services/${service.slug}`}
+        className="relative aspect-[4/3] overflow-hidden bg-muted"
+      >
         {service.image ? (
           <Image
             src={service.image}
             alt={service.name}
             fill
-            className="object-cover transition-transform duration-300 group-hover:scale-105"
+            className="object-contain transition-transform duration-300 group-hover:scale-105"
           />
         ) : (
           <div
