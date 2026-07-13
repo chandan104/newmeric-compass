@@ -79,7 +79,7 @@ export const services: Service[] = [
     slug: "vastu-consultation",
     name: "Vastu Consultation — 16 Zones Analysis Report",
     pillar: "vastu",
-    price: 501,
+    price: 1110,
     image: "https://res.cloudinary.com/hfxiadax/image/upload/v1783778081/SAVE_20260711_112842_ihv9qg.jpg",
     tagline: "विजयी भवतु सर्वत्र सर्वदा — May You Be Victorious Everywhere, Always",
     shortDescription:
