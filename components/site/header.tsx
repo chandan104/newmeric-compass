@@ -27,8 +27,8 @@ export function Header() {
               <span className="font-heading text-xl font-bold leading-tight text-primary md:text-2xl">
                 Newmeric Compass
               </span>
-              <span className="hidden text-xs text-muted-foreground sm:block">
-                The "GPS" of Your Destiny
+              <span className="block text-xs font-medium italic tracking-wide text-accent">
+                The &quot;GPS&quot; of Your Destiny
               </span>
             </div>
           </Link>
